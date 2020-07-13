@@ -1,0 +1,9 @@
+txt1 = "My name is {fname}, I'am {age}".format(fname = "John", age = 36)
+txt2 = "My name is {0}, I'am {1}".format("John",36)
+txt3 = "My name is {}, I'am {}".format("John",36)
+
+class Dog:
+  dog_time_dilation = 7
+
+  def time_explanation(self):
+    print("Dogs experience {} years for every 1 human year.".format(self.dog_time_dilation))
